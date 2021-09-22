@@ -106,9 +106,10 @@ for index in 1...100{
  */
 
 func verifyParenthesis(expression: String) -> Bool {
-    let chars = Array(expression)
+    let chars = Array(expression) //chars is constant because once initialized, it is expected to stay the same
     
-    var total = 0
+    
+    var total = 0 //total is a variable because we want to update its value during runtime
     for letter in chars {
         if letter == "("{
             total += 1
