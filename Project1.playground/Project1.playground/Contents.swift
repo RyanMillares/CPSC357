@@ -11,6 +11,13 @@ import UIKit
  */
 
 /*:
+ # Questions about function:
+ * I chose this problem for two reasons. First, I love playing with and handling number datas, so this looked like a fun challenge. Second, since it involves numbers, I could rapidly run tests with a simple for loop.
+ * This function takes a single parameter called num, of type Int. This is to be the input number we are checking whether it is prime or not.
+ * There was no need for extra constants or variables other than the one created by the for loop to iteratively divide the input by smaller numbers to check if one returns a remaineder of zero.
+ * A variable is a data type that can be changed over time, while a constant's value is static and set in stone as soon as it is initialized.*/
+
+/*:
  
  Psuedocode:
  * bool isPrime(num){
@@ -25,7 +32,7 @@ import UIKit
  * ----if NO: it is prime
  
  */
-
+/**/
 
 func isPrime(num: Int) -> Bool {
     if num > 3 {
@@ -51,6 +58,7 @@ func isPrime(num: Int) -> Bool {
         return true
     }
 }
+// end of function
 var val: Int
 var total: Float = 0
 var primes: Float = 0
@@ -83,12 +91,19 @@ for index in 1...100{
  # Problem 3: Parenthesis Checker
  
  Make a function that takes in a string and checks if the parenthesis are formatted properly.
- **Things to consider:*
+ **Things to note:*
  * There must be equal number of opening and closing paranthesis
  * A proper match includes an opening paranthesis followed by a closing.
  * Cannot have a closing before opening in a pair.
  * */
 
+/*: Questions about function:
+ * I chose this function because I was slightly familiar with the problem from data structures. However, I also was already thinking of a solution as soon as I saw this problem so figured might as well continue with it.
+ * This function takes a single parameter, expression, of type String, as input. This is the string to be checked for proper paranthesis pairing.
+ * The function also has constant, chars, that is initialized as an array. This holds the input string as a split array, and is constant becase its contents must stay the same throughout the runtime.
+ * The function also has a variable, total, of type Int. This represents the current "parenthesis balance value" of the string, a number I made up to represent the difference between opening and closing parenthesis. This can be used both during run time and at the end of the function to check for any unmatched parenthesis.
+ 
+ */
 /*:
  Psuedocode:
  * Split string into array of characters and store as constant
@@ -106,10 +121,10 @@ for index in 1...100{
  */
 
 func verifyParenthesis(expression: String) -> Bool {
-    let chars = Array(expression) //chars is constant because once initialized, it is expected to stay the same
+    // referenced https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjckJ7qz5XzAhUQ6p4KHf6XDckQFnoECAUQAQ&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F25921204%2Fconvert-swift-string-to-array%2F25921323&usg=AOvVaw0bF1U0Yf62Y7vrks5SM6Z6 to find suitable function to split into characters.
+    let chars = Array(expression)
     
-    
-    var total = 0 //total is a variable because we want to update its value during runtime
+    var total = 0
     for letter in chars {
         if letter == "("{
             total += 1
@@ -131,6 +146,7 @@ func verifyParenthesis(expression: String) -> Bool {
    
 
 }
+//end of function
 let hello: String = "ewgr"
 //let chars = Array(hello)
 print("hi")
