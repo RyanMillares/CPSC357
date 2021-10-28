@@ -1,0 +1,50 @@
+[
+    {
+        "id": "aa32jj887hhg55",
+        "name": "Minecraft",
+        "description": "Minecraft is a sandbox game with unlimited possibilities. All players start out in the middle of a procedurely generated world; what direction they go is up to them. It is one of the most downloaded games in the world. Players can play in their own singleplayer world, or join multiplayer servers/games to collaborate, fight, or whatever they want.",
+        "dateReleased": "2011",
+        "creator": "Markus Persson/Mojang",
+        "isFree": false,
+        "imageName": "minecraft"
+        
+    },
+    {
+        "id": "cc32jj887hhg66",
+        "name": "Tank Trouble",
+        "description": "Tank Trouble is an online, multiplayer pvp game in which players can fight each other as tanks in a small maze-like map. Bullets bounce off walls, and a single hit kills the other player. Powerups spawn randomly during the game, depending on the settings. While this game has an official website, a less refined version exists on unblocked websites that are more favored due to being accessible from most school wifi.",
+        "dateReleased": "2014",
+        "creator": "Mads Purup",
+        "isFree": true,
+        "imageName": "tanks"
+    },
+    {
+        "id": "bb32jj887hhg77",
+        "name": "Agar.io",
+        "description": "Agar.io is a large multiplayer online action game centered around cells. Players control their cells and can eat small pellets spawned randomly in the field to grow in size. If bigger than another player, they can eat them and absorb their mass.",
+        "dateReleased": "2015",
+        "creator": "Matheus Valadares",
+        "isFree": true,
+        "imageName": "agario"
+    },
+  
+    {
+        "id": "dd32jj887hhg88",
+        "name": "Diep.io",
+        "description": "Diep.io is a large online multiplayer game similar to Agar.io, but focused around tanks. Players can naviage with thgeir tank and shoot pellets or ram other player tanks. Destroying shapes or other players gains points, which can level up their tank and unlock new upgrades.",
+        "dateReleased": "2016",
+        "creator": "Matheus Valadares",
+        "isFree": true,
+        "imageName": "diepio"
+    },
+    {
+        "id": "ee32jj887hhg99",
+        "name": "2048",
+        "description": "2048 is a simple, 4x4 tile-based game in which '2' or '4' tiles randomly spawn. The player uses arrow keys to slide all tiles in a certain direction. When two tiles of the same number collide, they merge and add their numbers together. Two '2' tiles colliding will make a '4' tile. The goal is to create the 2048 tile, but players can continue playing even after. Due to its simplistic nature, this game was frequently played during classes as means of distraction.",
+        "dateReleased": "2014",
+        "creator": "Gabriele Cirulli",
+        "isFree": true,
+        "imageName": "2048"
+    }
+    
+]
